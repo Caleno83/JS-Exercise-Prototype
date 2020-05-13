@@ -123,10 +123,10 @@ return `Playing with ${this.favoriteToy}`
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global binding: its used when a function is contained in the global scope, and this value inside the function will be the window object
+  2. Implicit binding: its used when a function is called by a precedent dot, and the object before that dot is this.
+  3. New binding: its used when it creates a new object based on a constructor function, and later it passing in new arguments
+  4. Explicity Binding: its used when we use .call, .apply to create new objects from previous objects 
 */
 
 
